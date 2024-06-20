@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #CD5C5C;
+}
+
+/* 커서 갖다대면 색깔이 바뀌며 직관적으로 표현한다 */
+tr:hover { background-color: #F5F5F5; }
